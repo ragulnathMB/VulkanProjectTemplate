@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Vulkan">
+      <UniqueIdentifier>{335e035d-9857-461d-a872-5d23c618ac5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\VulkanContext">
+      <UniqueIdentifier>{046294ba-94d2-40c3-8d4e-87d4c2dcacd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\VulkanRenderPass">
+      <UniqueIdentifier>{d69f8223-3d6a-4c43-9e85-636c6082ff79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\VulkanFrameBuffer">
+      <UniqueIdentifier>{ab3c5bde-5ba9-4c24-b068-f3849f078fbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\VulkanPipeline">
+      <UniqueIdentifier>{0bbb0b17-cd34-4e4d-b56b-023a596b76de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\VulkanSwpChain">
+      <UniqueIdentifier>{3b3544dd-10b1-4313-8c46-f0b0f3737e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\VulkanCommand">
+      <UniqueIdentifier>{b839bbd0-c692-4cf9-91ed-8f8ade5e0d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\VulkanSync">
+      <UniqueIdentifier>{66e084ff-f367-4bee-9d17-5112c3deb303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\VulkanImage">
+      <UniqueIdentifier>{ca80e717-743c-4444-b353-0c07200dcdd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\ShaderLoader">
+      <UniqueIdentifier>{69e8218c-7771-421b-ae0c-04d0dc4d9add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\Mesh">
+      <UniqueIdentifier>{9a7dda2c-5b37-4538-8ea0-def40e14d28e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\Camera">
+      <UniqueIdentifier>{c0a3cd07-efeb-4c92-8f5a-f2a32b8b500a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\Input">
+      <UniqueIdentifier>{3dfa303d-a5cb-42e3-aa6f-09dcc812723b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\Math">
+      <UniqueIdentifier>{680c6c80-31ba-4f4d-9dc4-71f0a356e8e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\Utils">
+      <UniqueIdentifier>{f4f93c01-4e1b-4c03-9f14-5811f011ff9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\VulkanInstance">
+      <UniqueIdentifier>{2ca273fe-ce7e-4f61-a534-c15e4a86c206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\VulkanDevice">
+      <UniqueIdentifier>{b476e2b2-250c-49f3-8183-3eff50d23bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\VulkanWindow">
+      <UniqueIdentifier>{ba3f4049-b436-4087-80bd-fb6167b75a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\VulkanBuffer">
+      <UniqueIdentifier>{05291627-a3de-474f-aac1-284be8c7d556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\Timer">
+      <UniqueIdentifier>{63144892-219d-416f-bbbd-9d491d3f039e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{89052301-9bf1-47ac-9e41-63c8fc5ce743}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanContext.cpp">
+      <Filter>Source Files\Vulkan\VulkanContext</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanInstance.cpp">
+      <Filter>Source Files\Vulkan\VulkanInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanDevice.cpp">
+      <Filter>Source Files\Vulkan\VulkanDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanWindow.cpp">
+      <Filter>Source Files\Vulkan\VulkanWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanSwapChain.cpp">
+      <Filter>Source Files\Vulkan\VulkanSwpChain</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanRenderPass.cpp">
+      <Filter>Source Files\Vulkan\VulkanRenderPass</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanFrameBuffer.cpp">
+      <Filter>Source Files\Vulkan\VulkanFrameBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanPipeline.cpp">
+      <Filter>Source Files\Vulkan\VulkanPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanCommand.cpp">
+      <Filter>Source Files\Vulkan\VulkanCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanSync.cpp">
+      <Filter>Source Files\Vulkan\VulkanSync</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanImage.cpp">
+      <Filter>Source Files\Vulkan\VulkanImage</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderLoader.cpp">
+      <Filter>Source Files\Vulkan\ShaderLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Vulkan\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Vulkan\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Vulkan\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanBuffer.cpp">
+      <Filter>Source Files\Vulkan\VulkanBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Vulkan\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMesh.cpp">
+      <Filter>Source Files\Vulkan\Mesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VulkanContext.hpp">
+      <Filter>Source Files\Vulkan\VulkanContext</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanInstance.hpp">
+      <Filter>Source Files\Vulkan\VulkanInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanDevice.hpp">
+      <Filter>Source Files\Vulkan\VulkanDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanWindow.hpp">
+      <Filter>Source Files\Vulkan\VulkanWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanSwapChain.hpp">
+      <Filter>Source Files\Vulkan\VulkanSwpChain</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanRenderPass.hpp">
+      <Filter>Source Files\Vulkan\VulkanRenderPass</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanFrameBuffer.hpp">
+      <Filter>Source Files\Vulkan\VulkanFrameBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanPipeline.hpp">
+      <Filter>Source Files\Vulkan\VulkanPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanCommand.hpp">
+      <Filter>Source Files\Vulkan\VulkanCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanImage.hpp">
+      <Filter>Source Files\Vulkan\VulkanImage</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderLoader.hpp">
+      <Filter>Source Files\Vulkan\ShaderLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.hpp">
+      <Filter>Source Files\Vulkan\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Source Files\Vulkan\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.hpp">
+      <Filter>Source Files\Vulkan\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.hpp">
+      <Filter>Source Files\Vulkan\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>Source Files\Vulkan\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanSync.hpp">
+      <Filter>Source Files\Vulkan\VulkanSync</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanBuffer.hpp">
+      <Filter>Source Files\Vulkan\VulkanBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>Source Files\Vulkan\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMesh.hpp">
+      <Filter>Source Files\Vulkan\Mesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeList.stxt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Project1\frag.spv">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="..\Project1\vertex.vert">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="..\Project1\vert.spv">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="..\Project1\fragment.frag">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
